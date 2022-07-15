@@ -33,4 +33,3 @@ jobs:
           push: true
           tags: |
             madpilot0/docker-remote-deployment-action:latest
-            madpilot0/docker-remote-deployment-action:${{ github.event.release.tag_name }}
