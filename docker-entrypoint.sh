@@ -78,4 +78,5 @@ ${DEPLOYMENT_COMMAND} ${DEPLOYMENT_COMMAND_OPTIONS} pull
 echo "Command: ${DEPLOYMENT_COMMAND} ${INPUT_ARGS}"
 ${DEPLOYMENT_COMMAND} ${DEPLOYMENT_COMMAND_OPTIONS} ${INPUT_ARGS}
 
-docker context rm staging
+docker context use default
+docker context rm staging -f
