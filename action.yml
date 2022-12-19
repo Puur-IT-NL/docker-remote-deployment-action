@@ -35,7 +35,7 @@ inputs:
 
 runs:
   using: docker
-  image: docker://madpilot0/docker-remote-deployment-action:v1.6
+  image: docker://madpilot0/docker-remote-deployment-action:v1.7
 
 branding:
   icon: send
