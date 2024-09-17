@@ -10,7 +10,7 @@ Below is an example of how the action can be used
 
 ```yaml
 - name: Start Deployment
-  uses: Puur-IT-NL/docker-remote-deployment-action@v1.9
+  uses: Puur-IT-NL/docker-remote-deployment-action@v1.11
   with:
     remote_docker_host: ec2-user@ec2-34-246-134-80.eu-west-1.compute.amazonaws.com
     ssh_private_key: ${{ secrets.DOCKER_SSH_PRIVATE_KEY }}
